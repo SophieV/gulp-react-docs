@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     doctoc = require('doctoc/lib/transform'),
     del = require('del'),
     $ = require('gulp-load-plugins')(),
-    reactDocsPlugin = require('../');
+    reactDocsPlugin = require('../index');
 
 // Helper vars
 var docsDest = 'docs';

@@ -1,16 +1,19 @@
-var _ = require('lodash'),
-    reactDocs = require('react-docgen'),
-    Handlebars = require('handlebars');
+const _ = require('lodash'),
+  reactDocs = require('react-docgen'),
+  Handlebars = require('handlebars'),
+  path = require('path'),
+  fs = require('fs'),
+  Immutable = require('immutable');
 
 /********************************************************
  * Helpers                                              *
  ********************************************************/
 
-var sortObjectByKey = function(obj){
-    return _(obj).keys().sort().reduce(function(memo, key) {
-        memo[key] = obj[key];
-        return memo;
-    }, {});
+var sortObjectByKey = function(obj) {
+  return _(obj).keys().sort().reduce(function(memo, key) {
+    memo[key] = obj[key];
+    return memo;
+  }, {});
 };
 
 /********************************************************
@@ -56,11 +59,11 @@ Handlebars.registerPartial('union', '(\
 
 // Partial helper. Tells us which partial to use based on the "propType" name
 Handlebars.registerHelper('whichPartial', function(type) {
-    var partials = [
-        'any', 'array', 'arrayOf', 'bool', 'custom', 'element', 'enum', 'func',
-        'node', 'number', 'object', 'shape', 'string', 'union'
-    ];
-    return type && _.contains(partials, type.name) ? type.name : 'catchAll';
+  var partials = [
+    'any', 'array', 'arrayOf', 'bool', 'custom', 'element', 'enum', 'func',
+    'node', 'number', 'object', 'shape', 'string', 'union'
+  ];
+  return type && _.contains(partials, type.name) ? type.name : 'catchAll';
 });
 
 /********************************************************
@@ -68,22 +71,26 @@ Handlebars.registerHelper('whichPartial', function(type) {
  ********************************************************/
 
 // math helper
-Handlebars.registerHelper('addLevel', function(level) { return level + 1; });
+Handlebars.registerHelper('addLevel', function(level) {
+  return level + 1;
+});
 
 // loop helper
 Handlebars.registerHelper('indent', function(indentLevel, options) {
-    var content = options.fn(this),
-        lines = content.split('\n'),
-        indentString = '';
+  var content = options.fn(this),
+    lines = content.split('\n'),
+    indentString = '';
 
-    // build the indent string we need for this indent level
-    for (var i = 0; i < indentLevel; i++) {
-        indentString += '    ';
-    }
+  // build the indent string we need for this indent level
+  for (var i = 0; i < indentLevel; i++) {
+    indentString += '    ';
+  }
 
-    // add then indents to each line
-    lines = lines.map(function(line) { return line = indentString + line; });
-    return lines.join('\n');
+  // add then indents to each line
+  lines = lines.map(function(line) {
+    return line = indentString + line;
+  });
+  return lines.join('\n');
 });
 
 /********************************************************
@@ -94,6 +101,7 @@ var reactDocgenTemplate = Handlebars.compile('\
 ## {{componentName}}\n\n\
 {{#if srcLink }}From [`{{srcLink}}`]({{srcLink}})\n\n\{{/if}}\
 {{#if description}}{{{description}}}\n\n{{/if}}\
+{{#if outputFile}}{{{outputFile}}}\n\n{{/if}}\
 {{#each props}}\
 #### {{@key}}\n\n\
 ```js\n\
@@ -110,13 +118,29 @@ var reactDocgenTemplate = Handlebars.compile('\
  ********************************************************/
 
 var reactDocgenMarkdown = function(componentSrc, options) {
-    var docs = reactDocs.parse(componentSrc);
-    return reactDocgenTemplate({
-        srcLink         : options.srcLink,
-        componentName   : options.componentName,
-        description     : docs.description,
-        props           : sortObjectByKey(docs.props)
-    });
+  var docs = reactDocs.parse(componentSrc);
+
+  const arrayWholePath = Immutable.List(path.join(options.absoluteRootPath, options.srcLink).split('/'));
+  const arrayWholePathWithoutFilename = arrayWholePath.butLast();
+  const fileNameWithoutExtension = arrayWholePath.last().split('.');
+  const newWholePath = arrayWholePathWithoutFilename.push(fileNameWithoutExtension[0] + 'Output.html');
+  const outputFile = newWholePath.join('/');
+
+  var outputFileExists = true;
+  try {
+    fs.accessSync(outputFile);
+  } catch (err) {
+    outputFileExists = false;
+  }
+
+  // console.log((outputFileExists ? path.relative(options.absoluteRootPath, outputFile) : null));
+  return reactDocgenTemplate({
+    outputFile: (outputFileExists ? path.relative(options.absoluteRootPath, outputFile) : null),
+    srcLink: options.srcLink,
+    componentName: options.componentName,
+    description: docs.description,
+    props: sortObjectByKey(docs.props)
+  });
 };
 
 module.exports = reactDocgenMarkdown;

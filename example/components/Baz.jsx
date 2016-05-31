@@ -1,5 +1,8 @@
 var React = require('react');
 
+/**
+ * C'est une description test ici.
+ */
 var Baz = React.createClass({
 
     /**************************************************
