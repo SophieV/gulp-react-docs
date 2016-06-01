@@ -1,0 +1,2916 @@
+{
+  "singleLocation": {
+    "postalCode": "06510",
+    "stateRegionProvince": "CT",
+    "city": "New Haven",
+    "officeName": "Yale Dermatologic Surgery",
+    "buildingName": "Temple Medical Center",
+    "streetAddress": "40 Temple Street",
+    "extendedAddress": "",
+    "latitude": 41.303826,
+    "longitude": -72.929432,
+    "appointmentsPhone": "2037853466",
+    "viewParkingUrl": "http://www.google.com"
+  },
+  "singleLocationFarAwayFromParking": {
+    "postalCode": "06790",
+    "stateRegionProvince": "CT",
+    "city": "Torrington",
+    "buildingName": "Smilow Cancer Care - Torrington",
+    "streetAddress": "200 Kennedy Drive",
+    "extendedAddress": "",
+    "longitude": -73.104783,
+    "latitude": 41.827672,
+    "viewParkingUrl": "http://www.google.com"
+  },
+  "parkings": [{
+    "parkingId": 8,
+    "name": "Temple Street Garage",
+    "streetAddress": "1 Temple Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": "24 hours; 7 days a week",
+    "comment": "Entrances from George St, Temple St and Exit 1/North Frontage Rd (directly off the Route 34 connector)",
+    "geoPoint": {
+      "latitude": 41.3036058,
+      "longitude": -72.9297213
+    },
+    "locality": {
+      "localityId": 540,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 11,
+    "name": "Amistad Street Garage",
+    "streetAddress": "10 Amistad Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": "24 hours; 7 days a week",
+    "comment": "Permit Parking Only; Access from both Cedar and Amistad",
+    "geoPoint": {
+      "latitude": 41.299837,
+      "longitude": -72.931012
+    },
+    "locality": {
+      "localityId": 3,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 14,
+    "name": "State/Wall Parking Lot",
+    "streetAddress": "10 Wall Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": "24 hours Daily",
+    "comment": "Monthly Parking Only; Parking not currently available.",
+    "geoPoint": {
+      "latitude": 41.308116,
+      "longitude": -72.921041
+    },
+    "locality": {
+      "localityId": 591,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 16,
+    "name": "Lot CSS: 100 Church Street South",
+    "streetAddress": "100 Church Street South",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.299479,
+      "longitude": -72.930286
+    },
+    "locality": {
+      "localityId": 100,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 54,
+    "name": "Lot 129: Association of Yale Alumni (1201 Chapel)",
+    "streetAddress": "1201 Chapel Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.30929,
+      "longitude": -72.934321
+    },
+    "locality": {
+      "localityId": 85,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 71,
+    "name": "Lot College Place",
+    "streetAddress": "13 Congress Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.302915,
+      "longitude": -72.931049
+    },
+    "locality": {
+      "localityId": 142,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 95,
+    "name": "Lot College Place 2-Visitors Only",
+    "streetAddress": "15 Congress Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.302533,
+      "longitude": -72.931928
+    },
+    "locality": {
+      "localityId": 143,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 109,
+    "name": "Long Wharf Medical Center Parking",
+    "streetAddress": "150 Sargent Drive",
+    "isPayLot": false,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Just past the Long Wharf Medical Center building, turn right toward the parking lot behind the building",
+    "geoPoint": {
+      "latitude": 41.293023,
+      "longitude": -72.922529
+    },
+    "locality": {
+      "localityId": 499,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 110,
+    "name": "Chapel-York Garage",
+    "streetAddress": "150 York Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Access from York Street",
+    "geoPoint": {
+      "latitude": 41.307958,
+      "longitude": -72.932553
+    },
+    "locality": {
+      "localityId": 704,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 125,
+    "name": "Lot  66: 160 St.Ronan Street ",
+    "streetAddress": "160 St. Ronan Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.320175,
+      "longitude": -72.920297
+    },
+    "locality": {
+      "localityId": 522,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 133,
+    "name": "Yale University Health Services",
+    "streetAddress": "17 Hillhouse Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.312738,
+      "longitude": -72.923402
+    },
+    "locality": {
+      "localityId": 280,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 137,
+    "name": "Lot  65: 309 Edwards N",
+    "streetAddress": "173 St. Ronan Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.32025,
+      "longitude": -72.919838
+    },
+    "locality": {
+      "localityId": 524,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 138,
+    "name": "Lot  65V: 309 Edwards N",
+    "streetAddress": "173 St. Ronan Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.320242,
+      "longitude": -72.91987
+    },
+    "locality": {
+      "localityId": 525,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 141,
+    "name": "Chestnut Garage",
+    "streetAddress": "176 Chestnut Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only",
+    "geoPoint": {
+      "latitude": 41.306147,
+      "longitude": -72.915914
+    },
+    "locality": {
+      "localityId": 99,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 142,
+    "name": "Orchard/Sherman",
+    "streetAddress": "102 North Frontage Road",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.3065037,
+      "longitude": -72.9434469
+    },
+    "locality": {
+      "localityId": 387,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 155,
+    "name": "Dwight/Orchard",
+    "streetAddress": "197 Orchard Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only; Parking currently not available, but waitlist available.",
+    "geoPoint": {
+      "latitude": 41.3066373,
+      "longitude": -72.942505
+    },
+    "locality": {
+      "localityId": 392,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 162,
+    "name": "WG",
+    "streetAddress": "2 Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": "Access on right from Grove, West of Whitney",
+    "geoPoint": {
+      "latitude": 41.310886,
+      "longitude": -72.92285
+    },
+    "locality": {
+      "localityId": 660,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 164,
+    "name": "Lot  77: Rth West",
+    "streetAddress": "20 Tower Parkway",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.313378,
+      "longitude": -72.931904
+    },
+    "locality": {
+      "localityId": 559,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 166,
+    "name": "Adult Emergency Dept Parking Lot 6",
+    "streetAddress": "20 York Street",
+    "isPayLot": false,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Parking in this garage is restricted to those arriving in their own cars to Emergency",
+    "geoPoint": {
+      "latitude": 41.3039833,
+      "longitude": -72.9349719
+    },
+    "locality": {
+      "localityId": 708,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06510",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 167,
+    "name": "Children's Hospital Garage",
+    "streetAddress": "20 York Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": true,
+    "hours": "M-F 6:30am -8pm; Weekends 9am-8pm; Valet 6am-8:30pm",
+    "comment": "Underground Lot Entrance on York St",
+    "geoPoint": {
+      "latitude": 41.3039833,
+      "longitude": -72.9349719
+    },
+    "locality": {
+      "localityId": 709,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06510",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 180,
+    "name": "Lot  26V: Ingalls East",
+    "streetAddress": "200 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.31649,
+      "longitude": -72.924607
+    },
+    "locality": {
+      "localityId": 431,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 181,
+    "name": "Prospect-Sachem Garage",
+    "streetAddress": "200 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.31791,
+      "longitude": -72.92474
+    },
+    "locality": {
+      "localityId": 432,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 195,
+    "name": "Lot  99: 206 Lafayette Street",
+    "streetAddress": "206 Lafayette Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.301575,
+      "longitude": -72.930411
+    },
+    "locality": {
+      "localityId": 330,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 196,
+    "name": "Lot  85: 205 Park Street",
+    "streetAddress": "207 Park Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.309232,
+      "longitude": -72.932706
+    },
+    "locality": {
+      "localityId": 403,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 199,
+    "name": "Lot  21 -Sage Hall East",
+    "streetAddress": "209 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.317168,
+      "longitude": -72.923195
+    },
+    "locality": {
+      "localityId": 436,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 205,
+    "name": "Crown Street Garage",
+    "streetAddress": "213 Crown Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": "7am to 2am (keycard owners can access at any time)",
+    "comment": "Entrances on College St. and Crown St.",
+    "geoPoint": {
+      "latitude": 41.306064,
+      "longitude": -72.928746
+    },
+    "locality": {
+      "localityId": 169,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 208,
+    "name": "Lot 41: 221 Whitney South",
+    "streetAddress": "215 Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.316347,
+      "longitude": -72.91986
+    },
+    "locality": {
+      "localityId": 666,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 217,
+    "name": "Whitney Av Park Gar Vis",
+    "streetAddress": "221R Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.316574,
+      "longitude": -72.919684
+    },
+    "locality": {
+      "localityId": 669,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 218,
+    "name": "Whitney Avenue Parking Garage",
+    "streetAddress": "221R Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": "Access on right from Whitney, North of Bradley St",
+    "geoPoint": {
+      "latitude": 41.316696,
+      "longitude": -72.919653
+    },
+    "locality": {
+      "localityId": 670,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 220,
+    "name": "Lot 84:University Theater South",
+    "streetAddress": "222 York Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.309698,
+      "longitude": -72.931865
+    },
+    "locality": {
+      "localityId": 715,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 222,
+    "name": "Lot  96 - Tac East",
+    "streetAddress": "225 Washington Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.300364,
+      "longitude": -72.93408
+    },
+    "locality": {
+      "localityId": 605,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 231,
+    "name": "Temple Medical Center Garage",
+    "streetAddress": "230 George Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": true,
+    "hours": "M-F 7am-7pm; Closed weekends",
+    "comment": "Enter garage from George Street. General parking is free, but fee for Valet Parking. Valet parking is located at the main entrance to the building on Temple Street.",
+    "geoPoint": {
+      "latitude": 41.304243,
+      "longitude": -72.9297969
+    },
+    "locality": {
+      "localityId": 240,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 243,
+    "name": "Lot  63: 314 Prospect Street",
+    "streetAddress": "24 Hillside Place",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.320576,
+      "longitude": -72.92399
+    },
+    "locality": {
+      "localityId": 299,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 246,
+    "name": "Lot  92: Shmb&I North",
+    "streetAddress": "240 South Frontage Road",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.304155,
+      "longitude": -72.933043
+    },
+    "locality": {
+      "localityId": 519,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 256,
+    "name": "George Street Parking Lot",
+    "streetAddress": "25 George Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only; Parking not currently available.",
+    "geoPoint": {
+      "latitude": 41.303045,
+      "longitude": -72.924811
+    },
+    "locality": {
+      "localityId": 241,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 261,
+    "name": "Lot  91: Eshd North",
+    "streetAddress": "250 South Frontage Road",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.304436,
+      "longitude": -72.933558
+    },
+    "locality": {
+      "localityId": 520,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 280,
+    "name": "Lot 53: 258 Church Street",
+    "streetAddress": "258 Church Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.31039,
+      "longitude": -72.922927
+    },
+    "locality": {
+      "localityId": 110,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06510",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 284,
+    "name": "Lot  16 -Bass/Wnsl East",
+    "streetAddress": "260 Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.318581,
+      "longitude": -72.919985
+    },
+    "locality": {
+      "localityId": 675,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 285,
+    "name": "Lot 16V: Bass/Wnsl East",
+    "streetAddress": "260 Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.318135,
+      "longitude": -72.920134
+    },
+    "locality": {
+      "localityId": 676,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 286,
+    "name": "Lot 22: Gibbs Lab East",
+    "streetAddress": "260 Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.317491,
+      "longitude": -72.92063
+    },
+    "locality": {
+      "localityId": 677,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 287,
+    "name": "Lot 22V:  Visitor Gibbs Lab East",
+    "streetAddress": "260 Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.317004,
+      "longitude": -72.920833
+    },
+    "locality": {
+      "localityId": 678,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 289,
+    "name": "Lot 96: The Anlyan Center East",
+    "streetAddress": "264 Washington Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.299596,
+      "longitude": -72.934065
+    },
+    "locality": {
+      "localityId": 606,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 299,
+    "name": "Lot 94",
+    "streetAddress": "270 Congress Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": "Access from Washington",
+    "geoPoint": {
+      "latitude": 41.301822,
+      "longitude": -72.932163
+    },
+    "locality": {
+      "localityId": 145,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 313,
+    "name": "Pierson-Sage Garage",
+    "streetAddress": "280 Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": "Access to the garage is through the main vehicular entrance to the Science Area, off Whitney Avenue. [334 Edwards Street] ",
+    "geoPoint": {
+      "latitude": 41.3181997,
+      "longitude": -72.9195535
+    },
+    "locality": {
+      "localityId": 683,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 338,
+    "name": "Lot 47",
+    "streetAddress": "294 Washinngton Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.2994307,
+      "longitude": -72.9345499
+    },
+    "locality": {
+      "localityId": 612,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 342,
+    "name": "Lot 100: Boyer Center for Molecular Medicine West",
+    "streetAddress": "297 Congress Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.302507,
+      "longitude": -72.93335
+    },
+    "locality": {
+      "localityId": 148,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 343,
+    "name": "Lot  81: 297 Crown Street",
+    "streetAddress": "299 Crown Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.306874,
+      "longitude": -72.931365
+    },
+    "locality": {
+      "localityId": 172,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 347,
+    "name": "Pro Park Public Parking",
+    "streetAddress": "300 George Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Parking lot is located directly across the street from 300 George St.",
+    "geoPoint": {
+      "latitude": 41.3053488,
+      "longitude": -72.9310453
+    },
+    "locality": {
+      "localityId": 242,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 374,
+    "name": "Lot  51: Hendrie North",
+    "streetAddress": "312 Temple Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.309815,
+      "longitude": -72.925536
+    },
+    "locality": {
+      "localityId": 543,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 383,
+    "name": "Elm/Orange Parking Lot",
+    "streetAddress": "32 Elm Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.3073213,
+      "longitude": -72.9219996
+    },
+    "locality": {
+      "localityId": 233,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 401,
+    "name": "Lot  80T: 333 Crown Street",
+    "streetAddress": "333 Crown Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.307526,
+      "longitude": -72.932817
+    },
+    "locality": {
+      "localityId": 176,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 414,
+    "name": "Smilow Cancer Hospital at Yale - New Haven Valet Parking",
+    "streetAddress": "35 Park Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": true,
+    "hours": null,
+    "comment": "Valet Only Lot",
+    "geoPoint": {
+      "latitude": 41.305031,
+      "longitude": -72.9362675
+    },
+    "locality": {
+      "localityId": 410,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 417,
+    "name": "Lot  29: 350 Edwards Street",
+    "streetAddress": "350 Edwards Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.319794,
+      "longitude": -72.921559
+    },
+    "locality": {
+      "localityId": 217,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 418,
+    "name": "Lot  29V: 350 Edwards Street",
+    "streetAddress": "350 Edwards Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.319788,
+      "longitude": -72.921738
+    },
+    "locality": {
+      "localityId": 218,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 420,
+    "name": "Greene/Olive Parking Lot",
+    "streetAddress": "351 Greene Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only",
+    "geoPoint": {
+      "latitude": 41.30599,
+      "longitude": -72.91913
+    },
+    "locality": {
+      "localityId": 258,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 426,
+    "name": "Lot  11N - Divinity School Apartments",
+    "streetAddress": "360 Canner Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.325638,
+      "longitude": -72.920967
+    },
+    "locality": {
+      "localityId": 36,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 430,
+    "name": "Lot  15: Betts South",
+    "streetAddress": "365 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.321498,
+      "longitude": -72.922128
+    },
+    "locality": {
+      "localityId": 455,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 438,
+    "name": "Lot  17: Greeley East",
+    "streetAddress": "370 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.322066,
+      "longitude": -72.923727
+    },
+    "locality": {
+      "localityId": 458,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 444,
+    "name": "State/Audubon Parking Lot",
+    "streetAddress": "38 State Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only",
+    "geoPoint": {
+      "latitude": 41.3015631,
+      "longitude": -72.9244484
+    },
+    "locality": {
+      "localityId": 528,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 455,
+    "name": "Lot  62: 301 Prospect Street",
+    "streetAddress": "390 Edwards Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.31976,
+      "longitude": -72.922931
+    },
+    "locality": {
+      "localityId": 220,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 458,
+    "name": "Lot  14: Betts House West",
+    "streetAddress": "393 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.322894,
+      "longitude": -72.922845
+    },
+    "locality": {
+      "localityId": 466,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 459,
+    "name": "Lot  14BH: Betts House North",
+    "streetAddress": "393 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.322833,
+      "longitude": -72.922142
+    },
+    "locality": {
+      "localityId": 467,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 460,
+    "name": "Lot 97",
+    "streetAddress": "4 Congress Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": "Access from Washington",
+    "geoPoint": {
+      "latitude": 41.3027674,
+      "longitude": -72.930155
+    },
+    "locality": {
+      "localityId": 152,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 467,
+    "name": "Gamma Knife Center Parking",
+    "streetAddress": "40 Temple Street",
+    "isPayLot": false,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Parking designated for patients to the Gamma Knife Center; Entrance on North Frontage Rd (enter from right)",
+    "geoPoint": {
+      "latitude": 41.303826,
+      "longitude": -72.929432
+    },
+    "locality": {
+      "localityId": 547,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06510",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 469,
+    "name": "Union Station Garage",
+    "streetAddress": "40 Union Avenue",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": "6am-10pm",
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.298887,
+      "longitude": -72.9257977
+    },
+    "locality": {
+      "localityId": 572,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 470,
+    "name": "40-42 Whitney Avenue",
+    "streetAddress": "40-42 Whitney Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.311777,
+      "longitude": -72.922427
+    },
+    "locality": {
+      "localityId": 2,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06510",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 480,
+    "name": "Lot  11: Divinity School North",
+    "streetAddress": "409 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.324122,
+      "longitude": -72.9217
+    },
+    "locality": {
+      "localityId": 470,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 481,
+    "name": "Lot  11V -Divinity School Visititor",
+    "streetAddress": "409 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.32396,
+      "longitude": -72.922716
+    },
+    "locality": {
+      "localityId": 471,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 482,
+    "name": "Lot  12V - Divinity School East",
+    "streetAddress": "409 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.323217,
+      "longitude": -72.920588
+    },
+    "locality": {
+      "localityId": 472,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 495,
+    "name": "Orange/Trumbull Parking Lot",
+    "streetAddress": "431 Orange Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only; Parking currently not available, but waitlist available.",
+    "geoPoint": {
+      "latitude": 41.3121099,
+      "longitude": -72.918486
+    },
+    "locality": {
+      "localityId": 390,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 496,
+    "name": "Lot 32",
+    "streetAddress": "432 State Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.3063239,
+      "longitude": -72.922146
+    },
+    "locality": {
+      "localityId": 529,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 503,
+    "name": "Lot  55: 451 College Street",
+    "streetAddress": "445 College Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.310045,
+      "longitude": -72.925993
+    },
+    "locality": {
+      "localityId": 129,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 527,
+    "name": "Chapel/Franklin Garage",
+    "streetAddress": "490 Chapel Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only",
+    "geoPoint": {
+      "latitude": 41.3036597,
+      "longitude": -72.9148253
+    },
+    "locality": {
+      "localityId": 87,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 548,
+    "name": "Lot  43: Malone East",
+    "streetAddress": "53 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.312985,
+      "longitude": -72.924436
+    },
+    "locality": {
+      "localityId": 477,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 568,
+    "name": "Broadway Plaza Lot",
+    "streetAddress": "56 Broadway",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": "9:30am to 2am",
+    "comment": "Waiting List for this garage",
+    "geoPoint": {
+      "latitude": 41.3120663,
+      "longitude": -72.931939
+    },
+    "locality": {
+      "localityId": 27,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 571,
+    "name": "Lock Street Garage",
+    "streetAddress": "57 Lock Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.316201,
+      "longitude": -72.928025
+    },
+    "locality": {
+      "localityId": 337,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 572,
+    "name": "State/Grand/Olive Parking Lot",
+    "streetAddress": "581 State Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only; Parking not currently available.",
+    "geoPoint": {
+      "latitude": 41.3083534,
+      "longitude": -72.9200031
+    },
+    "locality": {
+      "localityId": 530,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 584,
+    "name": "Air Rights Garage",
+    "streetAddress": "60 York Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": true,
+    "hours": "24 hrs/7days a week; Valet Parking 6am - 8pm",
+    "comment": "Entrances on North Frontage Rd and South Frontage Rd and York St; Valet Parking is at 20 York Street Entrance",
+    "geoPoint": {
+      "latitude": 41.305202,
+      "longitude": -72.934014
+    },
+    "locality": {
+      "localityId": 725,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06510",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 585,
+    "name": "Under Air Rights Garage",
+    "streetAddress": "60 York Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Permit Parking Only; Access from South Frontage at the T Rt 34 highway entrance east of York",
+    "geoPoint": {
+      "latitude": 41.305202,
+      "longitude": -72.934014
+    },
+    "locality": {
+      "localityId": 726,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06510",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 590,
+    "name": "Lot  19: Ingalls West",
+    "streetAddress": "65 Mansfield Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.316924,
+      "longitude": -72.9255
+    },
+    "locality": {
+      "localityId": 367,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 593,
+    "name": "Lot  78 - Payne Whitney Gym North",
+    "streetAddress": "66 Ashmun Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.314593,
+      "longitude": -72.928994
+    },
+    "locality": {
+      "localityId": 6,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 600,
+    "name": "Howe Street Garage",
+    "streetAddress": "67-81 Howe Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.309886,
+      "longitude": -72.934817
+    },
+    "locality": {
+      "localityId": 320,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 609,
+    "name": "Granite Square Garage",
+    "streetAddress": "690 State Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": "7am to 1am M-F",
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.310281,
+      "longitude": -72.917957
+    },
+    "locality": {
+      "localityId": 532,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 631,
+    "name": "Lot 8",
+    "streetAddress": "76 Davenport Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.3031504,
+      "longitude": -72.9364564
+    },
+    "locality": {
+      "localityId": 182,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 636,
+    "name": "Olive and Chapel Parking Lot",
+    "streetAddress": "77 Olive Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only; Parking not currently available.",
+    "geoPoint": {
+      "latitude": 41.3046219,
+      "longitude": -72.9199884
+    },
+    "locality": {
+      "localityId": 388,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 648,
+    "name": "Howard Avenue Garage",
+    "streetAddress": "790 Howard Avenue",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": "M-F 6am to 9pm",
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.3023631,
+      "longitude": -72.935854
+    },
+    "locality": {
+      "localityId": 313,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 657,
+    "name": "Lot 94: Pierce Fnd East",
+    "streetAddress": "81 Washington Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.301711,
+      "longitude": -72.932143
+    },
+    "locality": {
+      "localityId": 608,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 658,
+    "name": "Lot  39: 442 Temple Street West",
+    "streetAddress": "82 Trumbull Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.313142,
+      "longitude": -72.922648
+    },
+    "locality": {
+      "localityId": 567,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 661,
+    "name": "Lot  78W: Payne Whitney Gym West",
+    "streetAddress": "84 Lake Place",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.314002,
+      "longitude": -72.931588
+    },
+    "locality": {
+      "localityId": 331,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 668,
+    "name": "Lot  38: Rosenkranz North",
+    "streetAddress": "85 Prospect Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.315274,
+      "longitude": -72.924228
+    },
+    "locality": {
+      "localityId": 481,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 669,
+    "name": "Lot  37V: Trumbull Visit",
+    "streetAddress": "85 Trumbull Street",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.313657,
+      "longitude": -72.922713
+    },
+    "locality": {
+      "localityId": 568,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 671,
+    "name": "Pediatric Center Parking",
+    "streetAddress": "860 Howard Avenue",
+    "isPayLot": false,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Visitor's to the Pedriatic Dentistry Center can park in this lot, located by the center",
+    "geoPoint": {
+      "latitude": 41.3042449,
+      "longitude": -72.9370553
+    },
+    "locality": {
+      "localityId": 317,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06519",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 672,
+    "name": "Children's Hospital Pedriatic Emergency Parking",
+    "streetAddress": "862 Howard Avenue",
+    "isPayLot": false,
+    "isRestrictedLot": true,
+    "isValetParking": true,
+    "hours": null,
+    "comment": "Free parking is available at the entrance to the Pediatric Emergency Department on Howard Avenue for individuals bringing children in for emergency treatment only. Valet Parking --will be greated at Children's Hospital entrance by a valet captain who will accept payment (if any is required), assist you into the Children's Hospital and have your car parked in the Children's Hospital underground garage",
+    "geoPoint": {
+      "latitude": 41.3042985,
+      "longitude": -72.9368978
+    },
+    "locality": {
+      "localityId": 318,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 677,
+    "name": "Lot 1",
+    "streetAddress": "88 Davenport Avenue",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.3031073,
+      "longitude": -72.9365809
+    },
+    "locality": {
+      "localityId": 183,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 684,
+    "name": "Court/Olive",
+    "streetAddress": "92 Olive Street",
+    "isPayLot": true,
+    "isRestrictedLot": true,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only; Parking currently not available, but waitlist available.",
+    "geoPoint": {
+      "latitude": 41.305347,
+      "longitude": -72.920058
+    },
+    "locality": {
+      "localityId": 389,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 692,
+    "name": "Lot 96",
+    "streetAddress": "Between Washington and Gilbert, east of Howard",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": "Access from Washington",
+    "geoPoint": {
+      "latitude": 41.3212912,
+      "longitude": -72.9283391
+    },
+    "locality": {
+      "localityId": 12,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 715,
+    "name": "State/Pulaski Parking Lot",
+    "streetAddress": "State Street",
+    "isPayLot": true,
+    "isRestrictedLot": false,
+    "isValetParking": false,
+    "hours": null,
+    "comment": "Monthly Parking Only",
+    "geoPoint": {
+      "latitude": 41.3151973,
+      "longitude": -72.9104054
+    },
+    "locality": {
+      "localityId": 527,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 720,
+    "name": "West Campus-Lot 200 Visitors",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 619,
+      "city": "Orange",
+      "stateRegionProvince": "CT",
+      "postalCode": "06477",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 721,
+    "name": "West Campus-Lot 210 Daycare",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 620,
+      "city": "Orange",
+      "stateRegionProvince": "CT",
+      "postalCode": "06477",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 722,
+    "name": "West Campus-Lot 220 Administrative Offices",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 621,
+      "city": "Orange",
+      "stateRegionProvince": "CT",
+      "postalCode": "06477",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 723,
+    "name": "West Campus-Lot 230 Office Complex",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 622,
+      "city": "Orange",
+      "stateRegionProvince": "CT",
+      "postalCode": "06477",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 724,
+    "name": "West Campus-Lot 230 Research Complex",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 623,
+      "city": "West Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06516",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 725,
+    "name": "West Campus-Lot 250 Power Plant",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 624,
+      "city": "West Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06516",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 726,
+    "name": "West Campus-Lot 260 Stor & Rec",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 625,
+      "city": "West Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06516",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 727,
+    "name": "West Campus-Lot 270 Collections",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 626,
+      "city": "West Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06516",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 728,
+    "name": "West Campus-Lot 280 Vis Heff Dr",
+    "streetAddress": "West Windsor",
+    "isPayLot": null,
+    "isRestrictedLot": null,
+    "isValetParking": null,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.254676,
+      "longitude": -72.996281
+    },
+    "locality": {
+      "localityId": 627,
+      "city": "West Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06516",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }, {
+    "parkingId": 729,
+    "name": "Lot 16V",
+    "streetAddress": "Whitney/Humphrey",
+    "isPayLot": true,
+    "isRestrictedLot": null,
+    "isValetParking": false,
+    "hours": null,
+    "comment": null,
+    "geoPoint": {
+      "latitude": 41.317493,
+      "longitude": -72.919732
+    },
+    "locality": {
+      "localityId": 689,
+      "city": "New Haven",
+      "stateRegionProvince": "CT",
+      "postalCode": "06511",
+      "country": {
+        "countryId": 234,
+        "name": "United States",
+        "geoPoint": {
+          "latitude": 38.0,
+          "longitude": -97.0
+        }
+      }
+    }
+  }]
+}
