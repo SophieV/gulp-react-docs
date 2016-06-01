@@ -13,8 +13,6 @@ From [`../components/Baz.jsx`](../components/Baz.jsx)
 
 C'est une description test ici.
 
-../components/BazOutput.html
-
 #### bazActions
 
 ```js

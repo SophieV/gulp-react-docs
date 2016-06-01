@@ -3,7 +3,8 @@ const _ = require('lodash'),
   Handlebars = require('handlebars'),
   path = require('path'),
   fs = require('fs'),
-  Immutable = require('immutable');
+  Immutable = require('immutable'),
+  ReactDOMServer = require('react-dom/server');
 
 /********************************************************
  * Helpers                                              *
@@ -120,7 +121,8 @@ var reactDocgenTemplate = Handlebars.compile('\
 var reactDocgenMarkdown = function(componentSrc, options) {
   var docs = reactDocs.parse(componentSrc);
 
-  const arrayWholePath = Immutable.List(path.join(options.absoluteRootPath, options.srcLink).split('/'));
+  const absolutePathToSourceFile = path.join(options.absoluteRootPath, options.srcLink);
+  const arrayWholePath = Immutable.List(absolutePathToSourceFile.split('/'));
   const arrayWholePathWithoutFilename = arrayWholePath.butLast();
   const fileNameWithoutExtension = arrayWholePath.last().split('.');
   const newWholePath = arrayWholePathWithoutFilename.push(fileNameWithoutExtension[0] + 'Output.html');
@@ -129,6 +131,16 @@ var reactDocgenMarkdown = function(componentSrc, options) {
   var outputFileExists = true;
   try {
     fs.accessSync(outputFile);
+console.log(absolutePathToSourceFile.slice(1,absolutePathToSourceFile.length - 1));
+    const reactComponent = require(absolutePathToSourceFile.slice(1,absolutePathToSourceFile.length - 1));
+    console.log(reactComponent);
+    const reactStringOutput = ReactDOMServer.renderToString(reactComponent);
+console.log(reactStringOutput);
+    fs.writeFileSync(outputFile, reactStringOutput, 'utf8', function(err) {
+        if (err) {
+           return console.log(err);
+        };
+    });
   } catch (err) {
     outputFileExists = false;
   }

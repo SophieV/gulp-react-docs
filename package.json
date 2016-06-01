@@ -27,7 +27,9 @@
     "handlebars": "^4.0.5",
     "immutable": "^3.8.1",
     "lodash": "^3.10.1",
+    "react": "^15.1.0",
     "react-docgen": "2.7.0",
+    "react-dom": "^15.1.0",
     "through2": "^2.0.0"
   },
   "devDependencies": {
